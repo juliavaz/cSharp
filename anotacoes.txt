@@ -1,0 +1,6 @@
+Convenções para Nomes:
+    Camel Case: cSharp (parâmetros de métodos, variáveis dentro de métodos)
+    Pascal Case: CSharp (namespaces, classe, propertiese métodos)
+    Padrão _cSharp (atributos "internos" da classe) ex.: _session do handler
+
+Solutions -> (Any) Projects -> Class
