@@ -2,11 +2,11 @@
 
 namespace Exercicio02
 {
-    class Exercicio02
+    class Tabuada
     {
         static void Main(string[] args)
         {
-            int valor, n, result;
+            int valor, result;
 
             Console.WriteLine("Insira o valor da tabuada que quer saber!! ");
             valor = int.Parse(Console.ReadLine());

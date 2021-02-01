@@ -2,7 +2,7 @@
 
 namespace SomaSimples
 {
-    class Program
+    class SomaSimples
     {
         static void Main(string[] args)
         {
