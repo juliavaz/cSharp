@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Globalization; // converte , para .
 
-namespace HelloWorld
+namespace Program
 {
     public class FormatNumeros
     {

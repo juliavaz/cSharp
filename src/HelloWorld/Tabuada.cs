@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Text;
 
-namespace HelloWorld
+namespace Program
 {
     public class Tabuada
     {
