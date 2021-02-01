@@ -7,8 +7,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloWorld", "HelloWorld\He
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld.Test", "HelloWorld.Test\HelloWorld.Test.csproj", "{B54CBEA3-7495-4631-83C6-704F0CA4DE76}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "storage", "storege\storage.csproj", "{29630FD4-A1AA-4BE3-8603-CD9458B84C0D}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,10 +21,6 @@ Global
 		{B54CBEA3-7495-4631-83C6-704F0CA4DE76}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B54CBEA3-7495-4631-83C6-704F0CA4DE76}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B54CBEA3-7495-4631-83C6-704F0CA4DE76}.Release|Any CPU.Build.0 = Release|Any CPU
-		{29630FD4-A1AA-4BE3-8603-CD9458B84C0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{29630FD4-A1AA-4BE3-8603-CD9458B84C0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{29630FD4-A1AA-4BE3-8603-CD9458B84C0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{29630FD4-A1AA-4BE3-8603-CD9458B84C0D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
