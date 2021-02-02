@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Program
+namespace Algoritmos
 {
     public class Soma
     {

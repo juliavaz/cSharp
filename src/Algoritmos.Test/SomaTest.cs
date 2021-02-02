@@ -1,9 +1,9 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace Program.Test
+namespace Algoritmos.Test
 {
     [TestClass]
-    public class TestSoma
+    public class SomaTest
     {
         [TestMethod]
         public void TestarSomaValida()

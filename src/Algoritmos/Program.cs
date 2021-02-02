@@ -1,8 +1,8 @@
 ﻿using System;
 
-namespace Program
+namespace Algoritmos
 {
-    public class Program
+    public class Algoritmos
     {
         public static void Main(string[] args)
         {

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Globalization; // converte , para .
 
-namespace Program
+namespace Algoritmos
 {
     public class FormatNumeros
     {

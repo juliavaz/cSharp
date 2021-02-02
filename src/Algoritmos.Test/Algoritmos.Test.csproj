@@ -14,7 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\HelloWorld\Program.csproj" />
+    <ProjectReference Include="..\Algoritmos\Algoritmos.csproj" />
   </ItemGroup>
 
 </Project>

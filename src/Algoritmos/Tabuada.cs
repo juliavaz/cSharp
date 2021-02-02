@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Text;
 
-namespace Program
+namespace Algoritmos
 {
     public class Tabuada
     {
