@@ -4,3 +4,5 @@ Convenções para Nomes:
     Padrão _cSharp (atributos "internos" da classe) ex.: _session do handler
 
 Solutions -> (Any) Projects -> Class
+
+https://docs.microsoft.com/pt-br/dotnet/csharp/language-reference/keywords/params
