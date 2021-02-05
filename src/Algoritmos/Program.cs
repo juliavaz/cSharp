@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 
 namespace Algoritmos
 {
@@ -7,7 +8,7 @@ namespace Algoritmos
         public static void Main(string[] args)
         {
             // Soma
-            Console.WriteLine("Digite primeiro o numero ");
+            /**Console.WriteLine("Digite primeiro o numero ");
             double a = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine("Digite segundo o numero ");
             double b = Convert.ToDouble(Console.ReadLine());
@@ -34,7 +35,14 @@ namespace Algoritmos
             int valor = Convert.ToInt32(Console.ReadLine());
             Tabuada tabuada = new Tabuada();
             var resultado3 = tabuada.TabelaTabuada(valor);
-            Console.WriteLine($"{resultado3}");
+            Console.WriteLine($"{resultado3}"); 
+
+            **/
+
+            // Soma Param Array            
+            SomaParamArray useParam = new SomaParamArray();
+            var resultadoSoma = useParam.SomandoIndicesDoArray();
+            Console.WriteLine($"Soma = {resultadoSoma}");
 
         }
     }
