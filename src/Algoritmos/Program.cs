@@ -7,8 +7,9 @@ namespace Algoritmos
     {
         public static void Main(string[] args)
         {
+            /**            
             // Soma
-            /**Console.WriteLine("Digite primeiro o numero ");
+            Console.WriteLine("Digite primeiro o numero ");
             double a = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine("Digite segundo o numero ");
             double b = Convert.ToDouble(Console.ReadLine());
@@ -35,15 +36,15 @@ namespace Algoritmos
             int valor = Convert.ToInt32(Console.ReadLine());
             Tabuada tabuada = new Tabuada();
             var resultado3 = tabuada.TabelaTabuada(valor);
-            Console.WriteLine($"{resultado3}"); 
-
+            Console.WriteLine($"{resul
+            tado3}"); 
             **/
 
-            // Soma Param Array            
+            // Soma Param Array    
+            int[] list = { 1, 1, 1, 1, 6 };
             SomaParamArray useParam = new SomaParamArray();
-            var resultadoSoma = useParam.SomandoIndicesDoArray();
+            var resultadoSoma = useParam.SomandoIndicesDoArray(list);
             Console.WriteLine($"Soma = {resultadoSoma}");
-
         }
     }
 }
