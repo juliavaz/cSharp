@@ -37,13 +37,7 @@ namespace Algoritmos
             Tabuada tabuada = new Tabuada();
             var resultado3 = tabuada.TabelaTabuada(valor);
             Console.WriteLine($"{resultado3}"); 
-
-            // Soma Param Array    
-            int[] list = { 1, 1, 1, 1, 6 };
-            SomaParamArray useParam = new SomaParamArray();
-            var resultadoSoma = useParam.SomandoIndicesDoArray(list);
-            Console.WriteLine($"Soma = {resultadoSoma}");
-            
+                        
             **/
 
             // Soma Param Array    
