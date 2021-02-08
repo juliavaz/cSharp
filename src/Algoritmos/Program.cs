@@ -36,12 +36,26 @@ namespace Algoritmos
             int valor = Convert.ToInt32(Console.ReadLine());
             Tabuada tabuada = new Tabuada();
             var resultado3 = tabuada.TabelaTabuada(valor);
-            Console.WriteLine($"{resul
-            tado3}"); 
-            **/
+            Console.WriteLine($"{resultado3}"); 
 
             // Soma Param Array    
             int[] list = { 1, 1, 1, 1, 6 };
+            SomaParamArray useParam = new SomaParamArray();
+            var resultadoSoma = useParam.SomandoIndicesDoArray(list);
+            Console.WriteLine($"Soma = {resultadoSoma}");
+            
+            **/
+
+            // Soma Param Array    
+            
+            Console.Write("Informe a quantidade de numeros que irá inserir: ");
+            int tam = Convert.ToInt32(Console.ReadLine());
+            int[] list = new int[tam];
+            for (int i = 0; i < tam; i++)
+            {
+                Console.Write($"Insira o {i+1}º número: ");
+                list[i] = Convert.ToInt32(Console.ReadLine());
+            }
             SomaParamArray useParam = new SomaParamArray();
             var resultadoSoma = useParam.SomandoIndicesDoArray(list);
             Console.WriteLine($"Soma = {resultadoSoma}");
