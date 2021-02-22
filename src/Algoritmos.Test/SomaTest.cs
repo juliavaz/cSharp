@@ -22,5 +22,23 @@ namespace Algoritmos.Test
 
             Assert.IsFalse(resultado == 50);
         }
+
+        [TestMethod]
+        public void TestarSomaParamsValida()
+        {
+            var somaParamArray = new SomaParamArray();
+            var resultado = somaParamArray.SomandoIndicesDoArray(5, 5);
+
+            Assert.IsTrue(resultado == 10);
+        }
+
+        [TestMethod]
+        public void TestarSomaParamsInvalida()
+        {
+            var somaParamArray = new SomaParamArray();
+            var resultado = somaParamArray.SomandoIndicesDoArray(5, 5);
+
+            Assert.IsFalse(resultado == 50);
+        }
     }
 }
