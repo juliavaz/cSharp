@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Linq;
 using System.Threading;
 
 namespace Algoritmos
@@ -17,7 +16,7 @@ namespace Algoritmos
             };
 
             var op = 1;
-            while (op != 0 )
+            while (op != 0)
             {
                 Console.WriteLine("\n----------------------------------------");
                 Console.WriteLine("! Para sair do MENU digite o número 0");
