@@ -11,24 +11,28 @@ namespace Algoritmos
         
         public static void Main(string[] args)
         {
-            Console.Write("Digite uma opção disponível no MENU: ");
-
+            Console.Write("\nDigite uma opção disponível no MENU: ");
             CriarMenu();
 
-            Console.WriteLine("\n! Para sair do MENU digite o número 0");
-            Console.WriteLine("\n[ ----- MENU ----- ]");
-            foreach (var item in dicMenu)
+            var opcaoSelecionada = 1;
+            while (opcaoSelecionada != 0)
             {
-                var itemMenu = item.Value;
-                Console.WriteLine($"[{item.Key}] - {itemMenu.Descricao}");
+                Console.WriteLine("\n! Para sair do MENU digite o número 0");
+                Console.WriteLine("\n[ ----- MENU ----- ]");            
+                foreach (var item in dicMenu)
+                {
+                    var itemMenu = item.Value;
+                    Console.WriteLine($"[{item.Key}] - {itemMenu.Descricao}");
+                }
+
+                opcaoSelecionada = Convert.ToInt32(Console.ReadLine());
+
+                if (!dicMenu.Equals(opcaoSelecionada))
+                    Console.WriteLine("Opção inválida");
+                                                
+                dicMenu[opcaoSelecionada].Operacao.Invoke();
+                
             }
-
-            var opcaoSelecionada = Convert.ToInt32(Console.ReadLine());
-
-            if (!dicMenu.ContainsKey(opcaoSelecionada))
-                Console.WriteLine("Opção inválida");
-            
-            dicMenu[opcaoSelecionada].Operacao.Invoke();            
         }
 
         public static void CriarMenu()
